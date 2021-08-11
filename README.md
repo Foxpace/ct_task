@@ -36,19 +36,31 @@ For state management the app uses the [flutter_bloc](https://bloclibrary.dev/#/)
 - main.dart
 - theme.dart - custom theme + other constants used across the project
 
+## **Used resources:**
+
+* stomach icon - [iconfinder.com by Chanut-is](https://www.iconfinder.com/icons/6549552/abdomen_constipation_digestive_gastrointestinal_intestine_stomach_icon)
+* Nunito Sans font - [Google fonts](https://fonts.google.com/specimen/Nunito+Sans)
+
+## **Used libraries:**
+
+* [build_runner](https://pub.dev/packages/build_runner) - json code generation
+* [connectivity plus](https://pub.dev/packages/connectivity_plus) - for internet connection status 
+* [flutter_bloc](https://pub.dev/packages/flutter_bloc) - for state management of the app
+* [flutter_lints](https://pub.dev/packages/flutter_lints) - opinionated code conventions
+* [google_fonts](https://pub.dev/packages/google_fonts) - fonts themening
+* [http](https://pub.dev/packages/http) - HTTP requests for the fhir API
+* [intl](https://pub.dev/packages/intl) - for time formatting
+* [json_serializable](https://pub.dev/packages/json_serializable) - json parsing
+* [sprintf](https://pub.dev/packages/sprintf) - string formatting 
+
 ## **Screenshots:** 
 
-<img src="images\loading.png" alt="loading" style="zoom:30%;" />
+<p align="center"><img src="images\loading.png" alt="loading" width="250" /></p>
 
-<img src="images\list.png" alt="list" style="zoom:30%;" />
+<p align="center"><img src="images\list.jpg" alt="list" alt="loading" width="250" /></p>
 
-<img src="images\empty_search.png" alt="empty_search" style="zoom:30%;" />
+<p align="center"><img src="images\empty_search.png" alt="empty_search" width="250" /></p>
 
-<img src="images\no_internet.png" alt="no_internet" style="zoom:30%;" />
+<p align="center"><img src="images\no_internet.png" alt="no_internet" width="250" /></p>
 
-
-
-<img src="images\error.png" alt="error" style="zoom:30%;" />
-
-
-
+<p align="center"><img src="images\error.png" alt="error" width="250" /></p>
